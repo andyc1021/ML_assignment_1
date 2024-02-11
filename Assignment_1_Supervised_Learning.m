@@ -10,7 +10,7 @@
 apple_raw_data = readtable('apple_quality.csv');
 
 % Aircraft Engine
-engine_raw_data_train = readtable('PM_test.xlsx');
+engine_raw_data_train = readtable('PM_train.xlsx');
 [engine_labled_data, engine_service_idx] = process_engine_data(engine_raw_data_train);
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
